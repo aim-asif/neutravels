@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Outfit", "sans-serif";
+  --font-title: "Montserrat", "sans-serif"
+
+    --breakpoint-3xl: 120rem;
+
+  /* --color-avocado-100: oklch(0.99 0 0); */
+  --color-primary: #2EA2C4;
+  --color-primary-dark: #1788B5;
+  --color-secondary: #CFE6F1;
+  --color-ligthGray: #F5FAFD;
+  --color-darkGray: #EBEFF0;
+  --color-textMain: #001F28;
+  --color-textSecondary: #74797A;
+
+  /* ... */
+}

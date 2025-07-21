@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav class=" bg-primary ">
+
+    <div class="container h-12 mx-auto flex items-center justify-between px-4 ">
+
+      <!-- LOGO -->
+      <div>
+        <img src="./src/images/logo-top.svg" alt="neutravels-logo" class="">
+      </div>
+
+      <!-- MENU -->
+      <div class="font-medium text-white hidden md:flex gap-x-4">
+        <a class="px-3 py-0.5 font-medium hover:bg-primary-dark rounded-full duration-300" href="#">Home</a>
+        <a class="px-3 py-0.5 font-medium hover:bg-primary-dark rounded-full duration-300" href="#">Tours</a>
+        <a class="px-3 py-0.5 font-medium hover:bg-primary-dark rounded-full duration-300" href="#">Deals</a>
+        <a class="px-3 py-0.5 font-medium hover:bg-primary-dark rounded-full duration-300" href="#">Blogs</a>
+        <a class="px-3 py-0.5 font-medium hover:bg-primary-dark rounded-full duration-300" href="#">About Us</a>
+      </div>
+
+      <!-- CTA -->
+      <div class=" bg-primary-dark px-3 py-1 rounded-full hidden md:flex justify-center gap-1">
+        <img src="./src/images/cta-icon.svg" alt="">
+        <span class="text-white font-medium">Log In</span>
+      </div>
+
+      <div class="flex md:hidden">
+        <img src="./src/images/humbuger.svg" class="text-white" alt="icon">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+
+  <div class="w-full relative border-2 border-red-500">
+
+    <!-- HERO TEXT -->
+    <div
+      class="absolute inset-0 flex justify-center items-center object-cover object-top transform -translate-y-36 z-10">
+      <h1 class="text-primary font-bold text-8xl uppercase text-center">Fly
+        Beyond<br>Boundaries</h1>
+    </div>
+
+    <!-- PLANE -->
+    <div class="absolute inset-0 flex justify-center items-center transform -translate-y-14 z-10">
+      <img src="./src/images/plane.png" alt="Plane">
+    </div>
+
+    <!-- BG IMAGE -->
+    <img src="./src/images/hero-bg-sky.png" alt="Hero Image" class="h-[690px] w-full object-cover object-bottom">
+
+    <!-- PARAGRAPH TEXT -->
+    <div
+      class="font-medium text-xl text-center absolute inset-0 flex justify-center items-center object-cover object-top transform translate-y-24 ">
+      <p class="text-textMain font-medium text-2xl">Discover unbeatable flight deals and start your journey <br> to any
+        destination with
+        ease!</p>
+    </div>
+
+  </div>
+
+
+  <!-- BOOKING FORM -->
+  <div class="max-w-max mx-auto  flex flex-col items-center justify-center -my-45 ">
+    <!-- BOOKING MENU -->
+    <div class="max-w-max bg-white flex rounded-t-xl z-10">
+
+      <div class="flex justify-center gap-2 px-3 py-2 rounded-t-xl border border-b-0 border-primary">
+        <img src="/src/images/menu-flight.svg" alt="Flight">
+        <span class="text-sm font-medium">Flight</span>
+      </div>
+      <div class="flex justify-center gap-2 px-3 py-2 rounded-t-xl border-b-1 border-primary">
+        <img src="/src/images/menu-hotel.svg" alt="Flight">
+        <span class="text-sm font-medium">Flight</span>
+      </div>
+      <div class="flex justify-center gap-2 px-3 py-2 rounded-t-xl border-b-1 border-primary">
+        <img src="/src/images/menu-tours.svg" alt="Flight">
+        <span class="text-sm font-medium">Flight</span>
+      </div>
+    </div>
+
+    <!-- FLIGHT SELECTION -->
+    <div
+      class="bg-white border-primary border-1 rounded-3xl -translate-0.25 flex flex-col justify-between items-center gap-12 px-6 pt-6 pb-9">
+
+      <!-- FLIGHT TYPE -->
+      <div class="flex justify-between">
+
+        <div class="flex flex-col gap-3 px-3 py-2">
+          <span class="text-sm font-medium text-textSecondary">Flight Type</span>
+          <div>
+            <button href="#" class=" cursor-pointer bg-primary text-white px-4 py-2 rounded-full">One Way</button>
+            <button href="#" class=" cursor-pointer bg-secondary text-textMain px-4 py-2 rounded-full">Round
+              Trip</button>
+            <button href="#"
+              class=" cursor-pointer bg-secondary text-textMain px-4 py-2 rounded-full">Multi-City</button>
+          </div>
+        </div>
+
+        <!-- SEPARATOR -->
+        <div class="w-px bg-secondary mx-4 self-stretch"></div>
+
+        <!-- FLIGHT CLASS -->
+        <div class="flex flex-col gap-3 px-3 py-2">
+          <span class="text-sm font-medium text-textSecondary">Class</span>
+          <div>
+            <button href="#" class=" cursor-pointer bg-primary text-white px-4 py-2 rounded-full">Economy</button>
+            <button href="#" class=" cursor-pointer bg-secondary text-textMain px-4 py-2 rounded-full">Business
+              Class</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- FLIGHT DESTINATION -->
+      <div class="self-stretch relative inline-flex justify-start items-center gap-2">
+        <!-- 1. From -->
+        <div class="bg-darkGray rounded-3xl flex justify-between">
+
+          <div
+            class="w-16 h-16 p-2.5 bg-darkGray rounded-tl-lg rounded-bl-lg border-r-1 border-secondary inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textSecondary text-xs font-medium leading-none">From</div>
+            <div class="justify-start text-emerald-950 text-xl font-semibold leading-normal">KUL</div>
+          </div>
+
+          <div
+            class="self-stretch h-16 px-2.5 py-2 bg-darkGray rounded-tr-lg rounded-br-lg inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textMain text-base font-medium leading-normal">Kuala Lumpur
+            </div>
+            <div class="self-stretch justify-start text-textSecondary text-xs font-medium leading-none">
+              Kuala
+              Lumpur International Airport, Malaysia</div>
+          </div>
+        </div>
+
+        <!-- 2. To -->
+
+        <div class="bg-darkGray rounded-3xl flex justify-between">
+
+          <div
+            class="w-16 h-16 p-2.5 bg-darkGray rounded-tl-lg rounded-bl-lg border-r-1 border-secondary inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textSecondary text-xs font-medium leading-none">To</div>
+            <div class="justify-start text-emerald-950 text-xl font-semibold leading-normal">JED</div>
+          </div>
+
+
+          <div
+            class="self-stretch h-16 px-2.5 py-2 bg-darkGray rounded-tr-lg rounded-br-lg inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textMain text-base font-medium leading-normal">Jeddah
+            </div>
+            <div class="self-stretch justify-start text-textSecondary text-xs font-medium leading-none">
+              King Abdulaziz International Airport, Saudi Arabia</div>
+          </div>
+        </div>
+
+        <!-- 3. Date -->
+        <div class="bg-darkGray flex justify-between">
+          <div
+            class="self-stretch w-36 h-16 px-2.5 py-2 bg-darkGray inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textMain text-base font-medium leading-normal">Date
+            </div>
+            <div class="self-stretch justify-start text-textSecondary text-xs font-medium leading-none">
+              Jan 16</div>
+          </div>
+        </div>
+
+        <!-- 4. Travelers -->
+        <div class="bg-darkGray rounded-3xl flex justify-between">
+          <div
+            class="self-stretch w-36 h-16 px-2.5 py-2 bg-darkGray inline-flex flex-col justify-center items-start gap-1">
+            <div class="justify-start text-textMain text-base font-medium leading-normal">Travelers
+            </div>
+            <div class="self-stretch justify-start text-textSecondary text-xs font-medium leading-none">
+              2 Adult, 1 Infant</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
